@@ -1,0 +1,19 @@
+[user]
+  email = baptiste.haudegand@gmail.com
+  name = Baptiste HAUDEGAND
+  signingkey = 1F56622F8DB5E3C60919172B0879D80E5FA5BC5E
+[core]
+  excludesfile = ~/.gitignore_global
+  autocrlf = input
+  safecrlf = true
+[commit]
+  gpgsign = true
+[diff]
+  algorithm = patience
+  compactionHeuristic = true
+[gpg]
+  program = /usr/local/bin/gpg
+[ui "color"]
+  ui = always
+[color]
+  ui = true
